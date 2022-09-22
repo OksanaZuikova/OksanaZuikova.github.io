@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Alice", serif;
+  color: blueviolet;
+  font-weight: 400;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  padding-left: 40px;
+  padding-top: 30px;
+  margin-top: 40px;
+  border-top: 1px solid blueviolet;
+}
+li {
+  padding: 5px;
+}
+i {
+  font-size: 18px;
+  padding-right: 8px;
+}
+a {
+  color: blueviolet;
+}
+.flex-conteiner {
+  display: flex;
+}
+.photo {
+  max-width: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(138, 43, 226, 0.4),
+    0 6px 15px 0 rgba(138, 43, 226, 0.4);
+}
+.main {
+  border-left: 1px solid blueviolet;
+  padding: 20px 40px;
+}
+
+.aside {
+  margin: 30px;
+}
+.main p {
+  padding-left: 20px;
+}
+.contacts {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 14px;
+}
+.diploma {
+  padding-left: 30px;
+}
