@@ -18,8 +18,6 @@ h2 {
 }
 li {
   padding: 5px;
-}
-i {
   font-size: 18px;
   padding-right: 8px;
 }
@@ -40,7 +38,18 @@ a {
   border-left: 1px solid blueviolet;
   padding: 20px 40px;
 }
-
+.portfolio {
+  margin-top: 30px;
+  padding-right: 40px;
+}
+.portfolio li {
+  padding: 5px;
+}
+.portfolio a {
+  display: block;
+  margin: 5px 0 0;
+  padding-right: 20px;
+}
 .aside {
   margin: 30px;
 }
@@ -50,8 +59,39 @@ a {
 .contacts {
   list-style-type: none;
   padding: 20px;
+}
+.contacts li {
   font-size: 14px;
 }
 .diploma {
   padding-left: 30px;
+}
+.languages {
+  text-align: center;
+}
+.languages h2,
+.languages p {
+  padding-left: 0;
+}
+i {
+  font-size: 18px;
+  padding-right: 8px;
+}
+.flex {
+  display: flex;
+  gap: 150px;
+  border-top: 1px solid blueviolet;
+  margin-top: 20px;
+}
+.flex div {
+  width: 50%;
+}
+.flex h2 {
+  border: none;
+  margin-top: 0;
+}
+
+.diploma {
+  display: block;
+  margin-top: 5px;
 }
